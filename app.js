@@ -1,6 +1,5 @@
-
-
-
+import React from "react";
+import ReactDOM from "react-dom/client";
 // root.render(heading); 
 
 //nested structure bnaana react mein
