@@ -1,5 +1,5 @@
 const resList = [
-    //Res0
+  //Res0 Dominos
   {
       info: {
       id: "185154",
@@ -13,69 +13,10 @@ const resList = [
       parentId: "2456",
       avgRatingString: "3.0",
       totalRatingsString: "500+",
-      sla: {
-        deliveryTime: 25,
-        lastMileTravel: 0.2,
-        serviceability: "SERVICEABLE",
-        slaString: "20-25 mins",
-        lastMileTravelString: "0.2 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2024-08-19 01:59:00",
-        opened: true,
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "Rxawards/_CATEGORY-Pizza.png",
-            description: "Delivery!",
-          },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  imageId: "Rxawards/_CATEGORY-Pizza.png",
-                  description: "Delivery!",
-                },
-              },
-            ],
-          },
-          textExtendedBadges: {},
-          textBased: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹150 OFF",
-        subHeader: "ABOVE ₹299",
-        discountTag: "FLAT DEAL",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-      externalRatings: {
-        aggregatedRating: {
-          rating: "--",
-        },
-      },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+      promoted: true,
     }
   },
-    //Res1
+  //Res1 Gujral
   {
       info: {
       id: "76072",
@@ -90,282 +31,60 @@ const resList = [
       parentId: "91251",
       avgRatingString: "4.5",
       totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 31,
-        lastMileTravel: 2.7,
-        serviceability: "SERVICEABLE",
-        slaString: "30-35 mins",
-        lastMileTravelString: "2.7 km",
-        iconType: "ICON_TYPE_EMPTY"
-      },
-      availability: {
-        nextCloseTime: "2024-08-18 23:00:00",
-        opened: true
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "v1695133679/badges/Pure_Veg111.png",
-            description: "pureveg"
-          }
-        ]
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          textBased: {},
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                  description: "pureveg"
-                }
-              }
-            ]
-          },
-          textExtendedBadges: {}
-        }
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹125 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL"
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {}
-        }
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-      externalRatings: {
-        aggregatedRating: {
-          rating: "--"
-        }
-      },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      promoted: false,
     }
   },
-  //Res2
+  //Res2 Burger King
   {
       info: {
-      id: "757050",
-      name: "Theobroma",
-      cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/7/22/d3642692-27b2-4d03-b448-f63570a77fe1_757050.jpg",
-      locality: "Sarabha Nagar",
-      areaName: "Kipps Market",
+      id: "262097",
+      name: "Burger King",
+      cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/6/11/cab874d5-c7ed-4122-9eb9-935992f4bcee_262097.JPG",
+      locality: "Civil Lines",
+      areaName: "Civil Lines",
       costForTwo: "₹400 for two",
-      cuisines: ["Bakery", "Desserts"],
+      cuisines: ["Burgers", "Tacos"],
       avgRating: 4.6,
       parentId: "1040",
       avgRatingString: "4.6",
       totalRatingsString: "100+",
-      sla: {
-        deliveryTime: 35,
-        lastMileTravel: 4.7,
-        serviceability: "SERVICEABLE",
-        slaString: "35-40 mins",
-        lastMileTravelString: "4.7 km",
-        iconType: "ICON_TYPE_EMPTY"
-      },
-      availability: {
-        nextCloseTime: "2024-08-19 00:00:00",
-        opened: true
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "newg.png",
-            description: "Gourmet"
-          }
-        ]
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          textBased: {},
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  imageId: "newg.png",
-                  description: "Gourmet"
-                }
-              }
-            ]
-          },
-          textExtendedBadges: {}
-        }
-      },
-      aggregatedDiscountInfoV3: {
-        header: "50% OFF",
-        subHeader: "UPTO ₹100"
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {}
-        }
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-      externalRatings: {
-        aggregatedRating: {
-          rating: "--"
-        }
-      },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-    },
-    analytics: {},
-    cta: {
-      link: "swiggy://menu?restaurant_id=757050",
-      text: "RESTAURANT_MENU",
-      type: "DEEPLINK"
+      promoted: true,
     }
-  },
-  //Res3
+  }, 
+  //Res3 Baba Chicken
   {
       info: {
-      id: "523943",
-      name: "Baba chicken",
-      cloudinaryImageId: "vucenqsfwl0eyqxhqttq",
-      locality: "Industrial Area",
-      areaName: "Industrial Area",
-      costForTwo: "₹500 for two",
+      id: "120052",
+      name: "Gyan Vaishnav Dhaba",
+      cloudinaryImageId: "cwpru1y9gvfobaf95z1y",
+      locality: "Gill Road",
+      areaName: "Gill Road",
+      costForTwo: "₹249 for two",
       cuisines: ["North Indian", "Mughlai", "Chinese", "Biryani"],
       avgRating: 4.5,
       parentId: "5285",
       avgRatingString: "4.5",
       totalRatingsString: "100+",
-      sla: {
-        deliveryTime: 29,
-        lastMileTravel: 1.9,
-        serviceability: "SERVICEABLE",
-        slaString: "25-30 mins",
-        lastMileTravelString: "1.9 km",
-        iconType: "ICON_TYPE_EMPTY"
-      },
-      availability: {
-        nextCloseTime: "2024-08-18 17:00:00",
-        opened: true
-      },
-      badges: {},
-      isOpen: true,
-      aggregatedDiscountInfoV2: {},
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          textBased: {},
-          imageBased: {},
-          textExtendedBadges: {}
-        }
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {}
-        }
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-      externalRatings: {
-        aggregatedRating: {
-          rating: "4.2",
-          ratingCount: "500+"
-        },
-        source: "GOOGLE",
-        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag"
-      },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-    },
-    analytics: {},
-    cta: {
-      link: "swiggy://menu?restaurant_id=523943",
-      text: "RESTAURANT_MENU",
-      type: "DEEPLINK"
+      promoted: false,
     }
   },
-  //Res4
+  //Res4 Special Chinese
   {
     info: {
-      id: "140186",
-      name: "Special Chinese Momos Corner",
-      cloudinaryImageId: "d2bcb212d2ed217763e2b51fb3bbdadb",
-      areaName: "Gurdev Nagar",
-      costForTwo: "₹150 for two",
-      cuisines: ["Chinese", "Momos", "Tibetan"],
+      id: "79134",
+      name: "Rishi Vegetarian Dhaba (RVN)",
+      cloudinaryImageId: "a8876caba02e6174bade789aa30ed25b",
+      areaName: "Gill Road",
+      costForTwo: "₹250 for two",
+      cuisines: ["North Indian", "Thalis", "Sweets"],
       avgRating: 4.4,
       parentId: "191822",
-      avgRatingString: "4.4",
+      avgRatingString: "4.6",
       totalRatingsString: "1K+",
-      promoted: true,
-      adTrackingId: "cid=17196879~p=1~adgrpid=17196879#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=140186~eid=2099f4b5-f135-4c1a-a908-61e1766eed3f~srvts=1723980598851~collid=45995",
-      sla: {
-        deliveryTime: 36,
-        lastMileTravel: 4.2,
-        serviceability: "SERVICEABLE",
-        slaString: "35-40 mins",
-        lastMileTravelString: "4.2 km",
-        iconType: "ICON_TYPE_EMPTY"
-      },
-      availability: {
-        nextCloseTime: "2024-08-18 23:50:00",
-        opened: true
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          textBased: {},
-          imageBased: {},
-          textExtendedBadges: {}
-        }
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹125 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL"
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {}
-        }
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-      externalRatings: {
-        aggregatedRating: {
-          rating: "--"
-        }
-      },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-    },
-    analytics: {},
-    cta: {
-      link: "swiggy://menu?restaurant_id=140186",
-      text: "RESTAURANT_MENU",
-      type: "DEEPLINK"
+      promoted: false,
     }
   },
-  //Res5
+  //Res5 Sartaj
   {
     info: {
       id: "66558",
@@ -378,190 +97,35 @@ const resList = [
         "Sweets",
         "Chaat",
         "South Indian",
-        "Street Food",
-        "Fast Food",
-        "Continental"
+        "Street Food"
       ],
       avgRating: 4.6,
       veg: true,
       parentId: "178513",
       avgRatingString: "4.6",
       totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 35,
-        lastMileTravel: 3.9,
-        serviceability: "SERVICEABLE",
-        slaString: "30-35 mins",
-        lastMileTravelString: "3.9 km",
-        iconType: "ICON_TYPE_EMPTY"
-      },
-      availability: {
-        nextCloseTime: "2024-08-18 21:30:00",
-        opened: true
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "Rxawards/_CATEGORY-Mithai.png",
-            description: "Delivery!"
-          },
-          {
-            imageId: "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png",
-            description: "OnlyOnSwiggy"
-          },
-          {
-            imageId: "v1695133679/badges/Pure_Veg111.png",
-            description: "pureveg"
-          }
-        ]
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          textExtendedBadges: {},
-          textBased: {},
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  imageId: "Rxawards/_CATEGORY-Mithai.png",
-                  description: "Delivery!"
-                }
-              },
-              {
-                attributes: {
-                  description: "OnlyOnSwiggy",
-                  imageId: "v1690360529/Ratnesh_Badges/Only_on_swiggy_badge_4x.png"
-                }
-              },
-              {
-                attributes: {
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                  description: "pureveg"
-                }
-              }
-            ]
-          }
-        }
-      },
-      aggregatedDiscountInfoV3: {
-        header: "50% OFF",
-        subHeader: "UPTO ₹100"
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {}
-        }
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-      externalRatings: {
-        aggregatedRating: {
-          rating: "4.3",
-          ratingCount: "1K+"
-        },
-        source: "GOOGLE",
-        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag"
-      },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-    },
-    analytics: {},
-    cta: {
-      link: "swiggy://menu?restaurant_id=66558",
-      text: "RESTAURANT_MENU",
-      type: "DEEPLINK"
+      promoted: false,
     }
   },
-  //Res 6
+  //Res 6 Rishi
   {
     info: {
-      id: "67273",
-      name: "Rishi Vaishnu Dhaba(RVD)",
-      cloudinaryImageId: "fc020e447492c75906c18d3e17740d2f",
+      id: "254128",
+      name: "McDonald's",
+      cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/14/94114507-b0e5-4ebf-bce2-0d96addecc2b_254128.JPG",
       locality: "Focal Point",
       areaName: "Gill Chowk",
       costForTwo: "₹300 for two",
-      cuisines: ["North Indian", "Desserts"],
+      cuisines: ["Burgers", "Wraps" , "Desserts"],
       avgRating: 4.4,
       veg: true,
       parentId: "169734",
       avgRatingString: "4.4",
       totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 25,
-        lastMileTravel: 1.4,
-        serviceability: "SERVICEABLE",
-        slaString: "25-30 mins",
-        lastMileTravelString: "1.4 km",
-        iconType: "ICON_TYPE_EMPTY"
-      },
-      availability: {
-        nextCloseTime: "2024-08-19 00:00:00",
-        opened: true
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "v1695133679/badges/Pure_Veg111.png",
-            description: "pureveg"
-          }
-        ]
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          textBased: {},
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                  description: "pureveg"
-                }
-              }
-            ]
-          },
-          textExtendedBadges: {}
-        }
-      },
-      aggregatedDiscountInfoV3: {
-        header: "60% OFF",
-        discountTag: "FLAT DEAL"
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {}
-        }
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-      externalRatings: {
-        aggregatedRating: {
-          rating: "4.0",
-          ratingCount: "5K+"
-        },
-        source: "GOOGLE",
-        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag"
-      },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-    },
-    analytics: {},
-    cta: {
-      link: "swiggy://menu?restaurant_id=67273",
-      text: "RESTAURANT_MENU",
-      type: "DEEPLINK"
+      promoted: true,
     }
   },
+  // Res 7 Meshi
   {
     info: {
       id: "116781",
@@ -576,223 +140,45 @@ const resList = [
       parentId: "135377",
       avgRatingString: "4.3",
       totalRatingsString: "10K+",
-      sla: {
-        deliveryTime: 24,
-        lastMileTravel: 1.3,
-        serviceability: "SERVICEABLE",
-        slaString: "20-25 mins",
-        lastMileTravelString: "1.3 km",
-        iconType: "ICON_TYPE_EMPTY"
-      },
-      availability: {
-        nextCloseTime: "2024-08-18 23:30:00",
-        opened: true
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "v1695133679/badges/Pure_Veg111.png",
-            description: "pureveg"
-          }
-        ]
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          textBased: {},
-          textExtendedBadges: {},
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  imageId: "v1695133679/badges/Pure_Veg111.png",
-                  description: "pureveg"
-                }
-              }
-            ]
-          }
-        }
-      },
-      aggregatedDiscountInfoV3: {
-        header: "ITEMS",
-        subHeader: "AT ₹99"
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {}
-        }
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-      externalRatings: {
-        aggregatedRating: {
-          rating: "--"
-        }
-      },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-    },
-    analytics: {},
-    cta: {
-      link: "swiggy://menu?restaurant_id=116781",
-      text: "RESTAURANT_MENU",
-      type: "DEEPLINK"
+      promoted: false,
+
     }
   },
+  // Res 8 Kaati
   {
     info: {
-      id: "298999",
-      name: "Kanha Bakery",
-      cloudinaryImageId: "qdfzvf26ude2torsa4tm",
+      id: "881021",
+      name: "Kaati Zone Rolls & Wraps",
+      cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/30/7e0dd302-c381-456e-9418-2fa08387473d_881021.jpg",
       locality: "Urban Vihar",
       areaName: "Duggri",
       costForTwo: "₹300 for two",
-      cuisines: ["Cakes and Pastries", "Bakery"],
+      cuisines: ["Wraps","Kathi Rolls"],
       avgRating: 4.3,
       veg: true,
       parentId: "114552",
       avgRatingString: "4.3",
       totalRatingsString: "1K+",
-      promoted: true,
-      adTrackingId: "cid=17196901~p=3~adgrpid=17196901#ag1~mp=SWIGGY_IN~bl=FOOD~aet=RESTAURANT~aeid=298999~eid=e9ca591f-2ec5-4b67-b87c-4f352d82c6fd~srvts=1723980598851~collid=45995",
-      sla: {
-        deliveryTime: 37,
-        lastMileTravel: 6.2,
-        serviceability: "SERVICEABLE",
-        slaString: "35-40 mins",
-        lastMileTravelString: "6.2 km",
-        iconType: "ICON_TYPE_EMPTY"
-      },
-      availability: {
-        nextCloseTime: "2024-08-19 04:00:00",
-        opened: true
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "v1695133679/badges/Pure_Veg111.png",
-            description: "pureveg"
-          }
-        ]
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "pureveg",
-                  imageId: "v1695133679/badges/Pure_Veg111.png"
-                }
-              }
-            ]
-          },
-          textExtendedBadges: {},
-          textBased: {}
-        }
-      },
-      aggregatedDiscountInfoV3: {
-        header: "65% OFF",
-        discountTag: "FLAT DEAL"
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {}
-        }
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-      externalRatings: {
-        aggregatedRating: {
-          rating: "--"
-        }
-      },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
-    },
-    analytics: {},
-    cta: {
-      link: "swiggy://menu?restaurant_id=298999",
-      text: "RESTAURANT_MENU",
-      type: "DEEPLINK"
+      promoted: false,
+      
     }
   },
+  // Res 9 - KFC
   {
     info: {
-      id: "83270",
-      name: "De Rollz",
-      cloudinaryImageId: "xc0c9arkzwypclkrrcbw",
-      locality: "Shastri Nagar",
-      areaName: "Shastri Nagar",
-      costForTwo: "₹200 for two",
-      cuisines: ["Rolls", "Burgers", "Pastas", "Italian", "Fast Food"],
-      avgRating: 4.5,
+      id: "94347",
+      name: "KFC",
+      cloudinaryImageId: "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/0a394524-ec41-4e42-9b44-a3e4dff3b623_94347.JPG",
+      locality: "Model Town",
+      areaName: "Model Town",
+      costForTwo: "₹400 for two",
+      cuisines: ["Burgers","Fast Food"],
+      avgRating: 4.1,
       parentId: "69252",
-      avgRatingString: "4.5",
+      avgRatingString: "4.3",
       totalRatingsString: "1K+",
-      sla: {
-        deliveryTime: 33,
-        lastMileTravel: 3.7,
-        serviceability: "SERVICEABLE",
-        slaString: "30-35 mins",
-        lastMileTravelString: "3.7 km",
-        iconType: "ICON_TYPE_EMPTY"
-      },
-      availability: {
-        nextCloseTime: "2024-08-18 19:00:00",
-        opened: true
-      },
-      badges: {},
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          textBased: {},
-          imageBased: {},
-          textExtendedBadges: {}
-        }
-      },
-      aggregatedDiscountInfoV3: {
-        header: "₹50 OFF",
-        subHeader: "ABOVE ₹199",
-        discountTag: "FLAT DEAL"
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          mediaType: "ADS_MEDIA_ENUM_IMAGE",
-          lottie: {},
-          video: {}
-        }
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-      externalRatings: {
-        aggregatedRating: {
-          rating: "3.1",
-          ratingCount: "20+"
-        },
-        source: "GOOGLE",
-        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag"
-      },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+      promoted: true,
     },
-    analytics: {},
-    cta: {
-      link: "swiggy://menu?restaurant_id=83270",
-      text: "RESTAURANT_MENU",
-      type: "DEEPLINK"
-    }
   }
   ];
 
