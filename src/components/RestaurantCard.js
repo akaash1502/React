@@ -26,7 +26,7 @@ const RestaurantCard = (props) => {
         <div className="flex flex-col flex-grow">
            <h3 className="font-bold py-1 text-lg">{name}</h3>
            <h4>{cuisines.join(", ")}</h4>
-           <h4>{avgRating + " Stars"}</h4>
+           <h4>{avgRating + " Stars ⭐"}</h4>
            <p>{costForTwo}</p>
            <p>{deliveryTime}</p>
         </div>

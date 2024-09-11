@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import React, { lazy, Suspense, useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./components/Header";
 import Body from "./components/Body";
@@ -9,14 +9,34 @@ import Error from "./components/Error";
 // import RestaurantMenu from "./components/RestaurantMenu";
 import RestaurantMenu from "./components/RestaurantMenu";
 // import Grocery from "./components/Grocery";
+import UserContext from "../utils/UserContext";
+import { Provider } from "react-redux";
+import appStore from "../utils/appStore";
+import Cart from "./Cart";
 
 
 
 const Grocery = lazy(() => import("./components/Grocery"));
 
 const AppLayout = () => {
-  return (
-    <div className="app">
+  
+  //Authentication hai suppose
+  const [username,setusername] = useState();
+
+  useEffect(()=>{ 
+    //Make an API call and send user name and password wo data mein aayega
+    // say data mein ye aa gya suppose
+    const data = {
+      username: 'Akash',
+    };
+    setusername(data.username);
+  },[])
+
+
+  return ( 
+    <Provider store={appStore}>
+      <UserContext.Provider value={{loggedInUser: username, setusername}}>
+      <div className="app">
       <Header />
       {/* if path is / then body */}
       {/* <Body /> */}
@@ -24,6 +44,8 @@ const AppLayout = () => {
        Header wahin ka wahin rahega */}
       <Outlet />
     </div>
+    </UserContext.Provider>  
+    </Provider>
   );
 };
 
@@ -55,6 +77,10 @@ const appRouter = createBrowserRouter([
         // Dynamic part chaahiye /restaurants ke aage
         element:<RestaurantMenu />
       },
+      {
+        path: "/cart",
+        element: <Cart />
+      }
     ],
     errorElement: <Error />,
   },

@@ -1,9 +1,10 @@
 import RestaurantCard , {withPromotedLabel} from "./RestaurantCard";
 import resList from "../../utils/mockdata";
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useInternetStatus from "../../utils/useInternetStatus";
+import UserContext from "../../utils/UserContext";
 
 const Body = () => {
   //Local state Variable = Superpowerful Variable
@@ -13,7 +14,9 @@ const Body = () => {
 
   const [searchtext, setsearchtext] = useState("");
   const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
-  //
+
+  const { loggedInUser, setusername } = useContext(UserContext);
+  
   // useEffect(() => {
   //   fetchdata();
   // }, []);
@@ -26,25 +29,17 @@ const Body = () => {
   }, [searchtext, listofRestaurants]);
 
   // const fetchdata = async () => {
-    // fetch data from API using this
-    // const data = await fetch(
-      // "https://www.swiggy.com/mapi/homepage/getCards?lat=31.395993917938036&lng=75.53563865788118"
-    // );
+  //   // fetch data from API using this
+  //   const data = await fetch(
+  //     "https://www.swiggy.com/mapi/homepage/getCards?lat=30.900965&lng=75.8572758"
+  //   );
 
-    // const json = await data.json();
+  //   const json = await data.json();
 
-    //NEW
-
-    // const restaurants =
-      // json?.data?.success?.cards[3]?.gridWidget?.gridElements?.infoWithStyle?.restaurants || [];
-
-    // Updated state with fetched restaurants
-    // setList(restaurants);
-    // setfilteredList(restaurants);
-
-    //OLD
-    // setList(json?.data?.success?.cards[3]?.gridWidget?.gridElements?.infoWithStyle?.restaurants);
-    // setfilteredList(json?.data?.success?.cards[1]?.gridWidget?.gridElements?.infoWithStyle?.restaurants);
+   
+  //   OLD
+  //   setList(json?.data?.success?.cards[3]?.gridWidget?.gridElements?.infoWithStyle?.restaurants);
+  //   setfilteredList(json?.data?.success?.cards[1]?.gridWidget?.gridElements?.infoWithStyle?.restaurants);
   // };
 
   const InternetStatus = useInternetStatus();
@@ -73,7 +68,7 @@ const Body = () => {
           />
 
           <button
-            className="px-4 py-1 bg-green-200 rounded-sm sm:w-auto hover:bg-green-300"
+            className="px-4 py-1 bg-blue-400 rounded-sm sm:w-auto hover:bg-blue-500"
             onClick={() => {
               //implement a filter restaurant cards and update UI
               console.log(searchtext);
@@ -89,9 +84,8 @@ const Body = () => {
           >
             Search
           </button>
-        </div>
-        <button
-          className="px-2 py-1 bg-green-200 rounded-sm sm:w-auto hover:bg-green-300"
+          <button
+          className="px-2 py-1 bg-blue-400 rounded-sm sm:w-auto hover:bg-blue-500"
           onClick={() => {
             //filter logic likhna hai
             const filteredList = listofRestaurants.filter(
@@ -103,8 +97,15 @@ const Body = () => {
         >
           Top Rated Restaurants
         </button>
+        </div>
+        <div>
+          <label>UserName :</label>
+          <input className="border border-black m-1 p-1" 
+          value={loggedInUser}
+          onChange={(e)=>{setusername(e.target.value)}}/>
+        </div>
       </div>
-      <div className="m-2 flex flex-wrap justify-between hover:ease-in">
+      <div className="m-2 flex flex-wrap hover:ease-in">
         {filteredRestaurants.map((restaurant) => (
           <Link
             to={"/restaurant/" + restaurant.info.id}
