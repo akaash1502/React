@@ -5,6 +5,7 @@ import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useInternetStatus from "../../utils/useInternetStatus";
 import UserContext from "../../utils/UserContext";
+// import Cart from "./Cart";
 
 const Body = () => {
   //Local state Variable = Superpowerful Variable
@@ -98,12 +99,18 @@ const Body = () => {
           Top Rated Restaurants
         </button>
         </div>
-        <div>
+
+
+
+        {/* <div>
           <label>UserName :</label>
           <input className="border border-black m-1 p-1" 
           value={loggedInUser}
           onChange={(e)=>{setusername(e.target.value)}}/>
-        </div>
+        </div> */}
+
+
+        
       </div>
       <div className="m-2 flex flex-wrap hover:ease-in">
         {filteredRestaurants.map((restaurant) => (

@@ -11,8 +11,8 @@ import RestaurantMenu from "./components/RestaurantMenu";
 // import Grocery from "./components/Grocery";
 import UserContext from "../utils/UserContext";
 import { Provider } from "react-redux";
-import appStore from "../utils/appStore";
-import Cart from "./Cart";
+import appStore from "./components/appStore";
+import Cart from "./components/Cart";
 
 
 
